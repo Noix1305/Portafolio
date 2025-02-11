@@ -1,0 +1,69 @@
+/* Estilo para el header con fondo negro y texto terciario */
+.header {
+    background-color: #000000;
+    /* Color de fondo negro */
+    padding: 1rem 2rem;
+    /* Espaciado del header */
+}
+
+/* Estilo para los enlaces de navegación y el logo */
+.header__menu .navbar-nav .nav-link,
+.header__menu .navbar-brand {
+    color: var(--color-terciario);
+    /* Color de texto de los enlaces */
+    font-size: 1.25rem;
+    /* Tamaño de fuente uniforme */
+    font-family: var(--fuente-monserrat);
+    /* Fuente para los enlaces y logo */
+}
+
+/* Estilo para los enlaces al pasar el mouse sobre ellos */
+.header__menu .nav-link:hover,
+.dropdown-menu .dropdown-item:hover {
+    color: var(--color-hover);
+    /* Color de texto al pasar el mouse sobre los enlaces */
+}
+
+/* Estilo para el menú desplegable */
+.dropdown-menu {
+    background-color: #000000;
+    /* Fondo negro para el menú desplegable */
+}
+
+.dropdown-item{
+    color: var(--color-terciario);
+}
+
+/* Estilo para el carrusel */
+.carousel-inner img {
+    height: 300px;
+    /* Ajusta la altura del carrusel */
+    object-fit: cover;
+    /* Asegura que la imagen cubra el área del carrusel */
+}
+
+/* Estilo para el modal */
+.modal-dialog {
+    width: auto;
+    height: auto;
+    /* Ajusta el ancho máximo del modal */
+}
+
+.modal-body img {
+    width: auto;
+    /* Asegura que la imagen se ajuste al ancho del modal */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+.modal-title {
+    color: black;
+}
+
+.card-title {
+    color: black;
+}
+
+.card-text {
+    color: rgb(46, 43, 43);
+}
